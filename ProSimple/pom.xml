@@ -4,7 +4,6 @@
   <artifactId>ProSimple</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
@@ -173,7 +172,7 @@
 
 	<profiles>
 		<profile>
-			<id>CA_RMS_Smoke</id>
+			<id>Smoke</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
@@ -189,7 +188,7 @@
 							<testFailureIgnore>true</testFailureIgnore>
 							
 							<suiteXmlFiles>
-								<suiteXmlFile>CA_RMS_Smoke.xml</suiteXmlFile>
+								<suiteXmlFile>Smoke.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>

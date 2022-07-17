@@ -50,7 +50,6 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 
 public class BrowserConfiguration {
-
 	public static WebDriver driver;
 	protected String TCID;
 	protected String TC_DESCRIPTION;

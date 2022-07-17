@@ -41,5 +41,4 @@ public class DateAndTimeFunctions {
 	    Random r = new Random();
 	    return r.nextInt((max - min) + 1) + min;
 	}
-
 }

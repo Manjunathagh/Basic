@@ -14,6 +14,7 @@ public class CommonFunctions_data {
 	                  accessLevel="Set Access Level",
 	                  exportCSV = "Export as CSV (Excel)",
 	                  
+	                  
 	//Configuration -Announcement, Training and Skill Data
 	                  active = "Set as Active",
 	                  retired = "Set as Retired",

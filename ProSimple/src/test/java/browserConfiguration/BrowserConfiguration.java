@@ -64,8 +64,6 @@ public class BrowserConfiguration {
 	public static String buildNumber;
 	public static String siteHost;
 
-	
-	
 	  public ExtentHtmlReporter htmlReporter; 
 	  public ExtentReports extent; 
 	  public ExtentTest test;

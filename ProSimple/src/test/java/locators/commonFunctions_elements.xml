@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>	
+    <element type="text" name="success_msg">
+		<locators>
+			<locator type="xpath">//div[@id='alertbox']/p</locator>
+		</locators>
+	</element>
+	
+	<element type="text" name="error_msg">
+		<locators>
+			<locator type="xpath">//h3[text()='Error']/following-sibling::p</locator>
+		</locators>
+	</element>
+	
+	<element type="text" name="backToSiteConfugaration">
+		<locators>
+			<locator type="xpath">//a[@class='back']/span</locator>
+		</locators>
+	</element>
+	
+	<element type="text" name="filter">
+		<locators>
+			<locator type="xpath">//div[@class='suit-table-filter']/label/input</locator>
+		</locators>
+	</element>
+	
+	<element type = "text" name ="selectAnAction">
+		<locators>
+		    <locator type ="id">bulk_actions</locator>
+			<locator type ="xpath">//select[@id='bulk_actions']</locator>
+		</locators>
+	</element>
+	
+	<element type = "button" name ="submitAction">
+		<locators>
+			 <locator type ="id">submit_action</locator>
+			<locator type ="xpath">//input[@id='submit_action']</locator>
+		</locators>
+	</element>
+	<element type = "text" name ="success_modal">
+		<locators>
+			<locator type ="xpath">//h3[.='Success']</locator>
+		</locators>
+	</element>
+	<element type = "text" name ="error_modal">
+		<locators>
+			<locator type ="xpath">//h3[.='Error']</locator>
+		</locators>
+	</element>
+	
+	 <element type="text" name="success_msg_az">
+		<locators>
+			<locator type="xpath">//div[@id='overDiv']//div[@id='alertbox']/p</locator>
+		</locators>
+	</element>
+		
+</elements>	

@@ -16,7 +16,7 @@ Framework Used: Page Object Model
 
 #command to run scripts using command line and IDE
 
-In Terminal  -> mvn test -P CA_RMS_Smoke.xml -Dbrowser=chrome -DsiteHost=https://california-ng.lab.cores.juvare.com -Dos=windows -Dmodule=web -Dtestng.dtd.http=true
+In Terminal  -> mvn test -P CA_RMS_Smoke.xml -Dbrowser=chrome -DsiteHost=https://google.com -Dos=windows -Dmodule=web -Dtestng.dtd.http=true
 In IDE -> -Dbrowser=chrome -DsiteHost=ClientURL -Dos=windows -Dmodule=web -Dtestng.dtd.http=true
 
 ## Tagging tests 
